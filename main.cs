@@ -2,6 +2,8 @@ using System;
 class Program{
     static void Main(string[] args){
 
+    // Sean Caro F. Diaz
+      
     bool conChoice = false;
         while (!conChoice){  
         Console.Write("Select activity from 1 - 5: ");
@@ -59,7 +61,7 @@ class Program{
             decimal bills;
             if (!decimal.TryParse(input, out bills))
             {
-                Console.WriteLine("Invalid denomination. only decimal and integer will be accep");
+                Console.WriteLine("Invalid denomination. only decimal and integer will be accepted");
                 continue;
             }
 
@@ -128,7 +130,7 @@ class Program{
             int numhaha;
             if (!int.TryParse(input, out numhaha) || numhaha <= 0)
             {
-                Console.WriteLine("Invalid input. Please enter a positive integer or 'exit' to return to main menu.");
+                Console.WriteLine("Invalid input. Please enter a positive integer.");
                 continue;
             }
 
